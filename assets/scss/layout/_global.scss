@@ -1,0 +1,53 @@
+// ### Global
+
+body {
+   font-family: $font-text;
+   font-weight: 400;
+   color: $dark-blue;
+
+   margin-top: 88.25px;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: $font-title;
+   font-weight: 400; 
+}
+
+a {
+   text-decoration: none !important;
+   transition: .3s color ease-in-out;
+}
+
+strong {
+   font-weight: 600;
+}
+
+figure {
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+.btn-blue {
+   color: $blue;
+   border: 1px solid $blue;
+   transition: .3s ease-in-out;
+
+   &:hover {
+      background-color: $blue;
+      color: white;
+   }
+
+   &.active {
+      background-color: $blue !important;
+      color: $light-blue;
+   }
+}
+
+.badge-blue {
+   background-color: $blue;
+}

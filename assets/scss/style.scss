@@ -1,0 +1,20 @@
+
+// Base
+@import 'base/fonts';
+@import 'base/variables';
+
+// Components
+@import 'components/panel';
+
+// Layout
+@import 'layout/global';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+
+// Pages
+@import 'pages/welcome';
+@import 'pages/menu';
+@import 'pages/pictures';
+@import 'pages/restaurant';
+@import 'pages/contact';
